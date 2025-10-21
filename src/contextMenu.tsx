@@ -16,9 +16,7 @@ export default function ContextMenu() {
         <Menu.Item onClick={() => onClick('New Curve')}>New Curve</Menu.Item>
         <Menu.Divider />
         <Menu.Item onClick={() => onClick('Rename')}>Rename</Menu.Item>
-        <Menu.Item color="red" onClick={() => onClick('Delete')}>
-          Delete
-        </Menu.Item>
+        <Menu.Item onClick={() => onClick('Delete')}>Delete</Menu.Item>
       </Menu.Dropdown>
     </Menu>
   );
